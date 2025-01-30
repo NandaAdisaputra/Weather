@@ -1,5 +1,9 @@
-package com.nandaadisaputra.weather
+package com.nandaadisaputra.weather.repository
 
+import com.nandaadisaputra.weather.model.WeatherData
+import com.nandaadisaputra.weather.model.WeatherMLModel
+import com.nandaadisaputra.weather.network.WeatherResult
+import com.nandaadisaputra.weather.network.WeatherService
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

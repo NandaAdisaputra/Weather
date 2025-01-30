@@ -1,7 +1,10 @@
-package com.nandaadisaputra.weather
+package com.nandaadisaputra.weather.helper
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.nandaadisaputra.weather.model.WeatherMLModel
+import com.nandaadisaputra.weather.repository.WeatherRepository
+import com.nandaadisaputra.weather.ui.WeatherViewModel
 
 class WeatherViewModelFactory(
     private val repository: WeatherRepository,

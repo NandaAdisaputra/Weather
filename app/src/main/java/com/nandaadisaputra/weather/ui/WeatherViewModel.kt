@@ -1,8 +1,11 @@
-package com.nandaadisaputra.weather
+package com.nandaadisaputra.weather.ui
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.nandaadisaputra.weather.model.WeatherMLModel
+import com.nandaadisaputra.weather.network.WeatherResult
+import com.nandaadisaputra.weather.repository.WeatherRepository
 
 class WeatherViewModel(
     private val weatherRepository: WeatherRepository,

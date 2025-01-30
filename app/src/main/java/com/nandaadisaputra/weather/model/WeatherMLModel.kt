@@ -1,6 +1,7 @@
-package com.nandaadisaputra.weather
+package com.nandaadisaputra.weather.model
 
 import android.content.Context
+import com.nandaadisaputra.weather.network.WeatherService
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.tensorflow.lite.Interpreter

@@ -1,4 +1,4 @@
-package com.nandaadisaputra.weather
+package com.nandaadisaputra.weather.model
 
 data class WeatherData(
     val temp: Float,              // Temperatur dalam Celsius

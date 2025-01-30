@@ -1,4 +1,4 @@
-package com.nandaadisaputra.weather
+package com.nandaadisaputra.weather.network
 
 data class WeatherResult(
     val city: String,       // Nama kota

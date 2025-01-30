@@ -1,4 +1,4 @@
-package com.nandaadisaputra.weather
+package com.nandaadisaputra.weather.network
 
 import com.google.gson.annotations.SerializedName
 

@@ -1,4 +1,4 @@
-package com.nandaadisaputra.weather
+package com.nandaadisaputra.weather.ui
 
 import android.os.Bundle
 import android.widget.Button
@@ -8,6 +8,13 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.lifecycleScope
+import com.nandaadisaputra.weather.BuildConfig
+import com.nandaadisaputra.weather.R
+import com.nandaadisaputra.weather.repository.WeatherRepository
+import com.nandaadisaputra.weather.helper.WeatherViewModelFactory
+import com.nandaadisaputra.weather.model.WeatherMLModel
+import com.nandaadisaputra.weather.network.WeatherService
+import com.nandaadisaputra.weather.network.getFormattedWeatherInfo
 import kotlinx.coroutines.launch
 
 // MainActivity adalah kelas utama yang menjalankan aplikasi cuaca

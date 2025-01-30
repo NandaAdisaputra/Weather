@@ -1,4 +1,4 @@
-package com.nandaadisaputra.weather
+package com.nandaadisaputra.weather.network
 
 // Mengimpor BuildConfig untuk mengakses konstanta BASE_URL
 import com.nandaadisaputra.weather.BuildConfig.BASE_URL
