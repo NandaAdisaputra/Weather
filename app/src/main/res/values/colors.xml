@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Warna yang digunakan dalam UI -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#808080</color> <!-- Untuk hint text -->
+    <color name="colorPrimary">#6200EE</color> <!-- Warna utama untuk tombol dan elemen lainnya -->
+    <color name="colorBackground">#F1F1F1</color> <!-- Warna latar belakang -->
+</resources>

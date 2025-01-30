@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="hint_city">Masukkan nama kota!</string>
+    <string name="weather_info">
+        <![CDATA[
+        Area      : %1$s
+        Suhu      : %2$d°C
+        Kelembapan: %3$d%%
+        Kecepatan Angin: %4$.1f m/s
+        Tekanan Udara : %5$d hPa
+        ]]>
+    </string>
+
+    <string name="weather_prediction">Prediksi Cuaca: </string>
+    <string name="enter_city_name">Masukkan nama kota</string>
+    <string name="get_weather_prediction">Dapatkan Prediksi Cuaca</string>
+    <string name="weather">Cuaca:</string>
+    <string name="current_weather">Cuaca Sekarang</string>
+</resources>
